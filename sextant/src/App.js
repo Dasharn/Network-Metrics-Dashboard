@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit title="Networking Metrics"> {/* Update the title */}
-        <IPMetric /> {/* Include the IPMetric component */}
-        {/* Include additional Metric components for other data points */}
+      <Exhibit title="Networking Metrics">
+        <IPMetric type="IPv4" />
+        <IPMetric type="IPv6" />
       </Exhibit>
     </div>
   );
