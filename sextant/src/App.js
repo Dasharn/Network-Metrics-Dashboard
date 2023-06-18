@@ -2,20 +2,18 @@ import React from 'react';
 import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
+import IPMetric from './IPMetric'; // Import the IPMetric component
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit title="Data Point 1">
-        {/* Content for the first data point */}
-      </Exhibit>
-      <Exhibit title="Data Point 2">
-        {/* Content for the second data point */}
+      <Exhibit title="Networking Metrics"> {/* Update the title */}
+        <IPMetric /> {/* Include the IPMetric component */}
+        {/* Include additional Metric components for other data points */}
       </Exhibit>
     </div>
   );
 }
 
 export default App;
-
