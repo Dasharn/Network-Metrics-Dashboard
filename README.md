@@ -1,4 +1,3 @@
-# WebSocket Server and React App
 
 This repository contains code for a WebSocket server and a React app that communicates with the server that I contributed to
 
