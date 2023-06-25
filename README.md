@@ -6,7 +6,5 @@ This repository contains code for a WebSocket server and a React app that commun
 
 The WebSocket server is implemented using Node.js and the `websocket` library. It establishes a WebSocket connection with clients and sends the current timestamp every 100 milliseconds.
 
-### Installation and Usage
 
-1. Install the required dependencies by running the following command:
 
